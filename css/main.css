@@ -1,7 +1,13 @@
+/* Common Styles */
+
 body {
   font-family: Roboto;
   font-size: 12px;
   color: #424242;
+}
+
+header, footer, .nav__mobile, section:not(.hero) {
+  margin: 2em 0.5em 2em 0.5em;
 }
 
 hr {
@@ -69,9 +75,7 @@ nav a:hover {
   margin: 4px 0 4px 14px;
 }
 
-header, footer, .nav__mobile, section:not(.hero) {
-  margin: 1.5em 0.5em 1.5em 0.5em;
-}
+/* Hero */
 
 .hero {
   height: 300px;
@@ -86,8 +90,17 @@ header, footer, .nav__mobile, section:not(.hero) {
   background-color: #000;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
-  padding: 0 0.5em 0 0.5em;
 }
+
+.hero-heading {
+  margin: 0.5em 0.5em 0.25em 0.5em;
+}
+
+.description p {
+  margin: 0.25em 0.5em 0.5em 0.5em;
+}
+
+/* Top News */
 
 .news__title {
   font-weight: 300;
@@ -121,6 +134,8 @@ header, footer, .nav__mobile, section:not(.hero) {
   text-decoration: none;
 }
 
+/* Scores */
+
 .scores__table {
   width: 100%;
   text-align: center;
@@ -148,6 +163,8 @@ header, footer, .nav__mobile, section:not(.hero) {
 .scores__table .winner {
   font-weight: bold;
 }
+
+/* Weather */
 
 .weather__today {
   text-align: center;
@@ -192,6 +209,8 @@ header, footer, .nav__mobile, section:not(.hero) {
   display: block;
 }
 
+/* Recent News */
+
 .recent-news ul {
   list-style: none;
   padding: 0;
@@ -203,14 +222,14 @@ header, footer, .nav__mobile, section:not(.hero) {
   margin: 0.5em 0 0.5em 0;
 }
 
-.snippet h3 {
-  margin: 0;
-}
-
 .snippet__thumbnail {
   width: 20%;
   float: left;
   margin-right: 0.5em;
+}
+
+.snippet__title {
+  margin: 0;
 }
 
 .snippet__title a {
