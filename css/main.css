@@ -13,6 +13,7 @@ hr {
 
 .header {
   display: flex;
+  margin-bottom: 1em;
 }
 
 .header__logo {
@@ -26,8 +27,8 @@ hr {
 
 /* Nav */
 
-.std__nav {
-  /*display: none;*/
+.nav__std {
+  display: none;
   text-align: center;
 }
 
@@ -53,7 +54,7 @@ nav a:hover {
   color: #212121;
 }
 
-.mobile__nav {
+.nav__mobile {
   height: 50px;
   width: 50px;
   position: absolute;
@@ -61,15 +62,15 @@ nav a:hover {
   right: 0;
 }
 
-.mobile__nav div {
+.nav__mobile div {
   background-color: #424242;
   height: 5px;
   width: 36px;
   margin: 4px 0 4px 14px;
 }
 
-header, footer, .mobile__nav, section:not(.hero) {
-  margin: 3em 0.5em 0 0.5em;
+header, footer, .nav__mobile, section:not(.hero) {
+  margin: 1.5em 0.5em 1.5em 0.5em;
 }
 
 .hero {
@@ -187,6 +188,10 @@ header, footer, .mobile__nav, section:not(.hero) {
   width: 19%;
 }
 
+.weather__next__item span {
+  display: block;
+}
+
 .recent-news ul {
   list-style: none;
   padding: 0;
@@ -194,6 +199,12 @@ header, footer, .mobile__nav, section:not(.hero) {
 
 .snippet {
   clear: both;
+  overflow: hidden;
+  margin: 0.5em 0 0.5em 0;
+}
+
+.snippet h3 {
+  margin: 0;
 }
 
 .snippet__thumbnail {
