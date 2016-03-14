@@ -64,14 +64,8 @@ hr {
 
 .header {
   padding: 1em 0 1em 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
-}
-
-.header__inner {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header__logo {
@@ -93,6 +87,7 @@ hr {
  */
 
 .nav {
+  display: none;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
@@ -130,7 +125,8 @@ hr {
  */
 
 main {
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  display: flex;
+  flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
 }
@@ -150,7 +146,7 @@ main {
 
 .hero {
   position: relative;
-  background-image: url("./images/dog.jpg");
+  background-image: url("../images/dog.jpg");
   background-size: cover;
   height: 300px;
 }

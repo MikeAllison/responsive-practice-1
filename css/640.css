@@ -1,0 +1,23 @@
+.hero {
+  width: 50%;
+}
+
+.top-news {
+  width: 50%;
+}
+
+.scores {
+  width: 50%;
+}
+
+.weather {
+  width: 50%
+}
+
+.header {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav {
+  display: block;
+}
