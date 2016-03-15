@@ -87,7 +87,7 @@ nav a:hover {
   top: 3.8em;
   -webkit-transform: translate(639px, 0);
   transform: translate(639px, 0);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
   height: 1000px;
   width: 639px;
   z-index: 1;
