@@ -1,15 +1,52 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav__mobile {
+  display: none;
+}
+
+.nav__std {
+  display: block;
+}
+
+header {
+  order: 0;
+}
+
+.header__title {
+  font-size: 2em;
+}
+
+nav {
+  order: 1;
+}
+
 .hero {
   width: 50%;
+  order: 2;
 }
 
 .top-news {
   width: 50%;
+  order: 3;
 }
 
 .scores {
   width: 50%;
+  order: 5;
 }
 
 .weather {
-  width: 50%
+  width: 50%;
+  order: 4;
+}
+
+.latest-news {
+  order: 6;
+}
+
+footer {
+  order: 7;
 }
