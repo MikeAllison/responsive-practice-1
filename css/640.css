@@ -23,6 +23,10 @@ nav {
   order: 1;
 }
 
+.news__title {
+  font-size: 2em;
+}
+
 .hero {
   width: 50%;
   order: 2;
