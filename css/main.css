@@ -176,6 +176,10 @@ nav a:hover {
 
 /* Scores */
 
+.scores__table__container {
+  overflow-x: auto;
+}
+
 .scores__table {
   width: 100%;
   text-align: center;
