@@ -198,11 +198,11 @@ nav a:hover {
 }
 
 .weather__today__temp {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .weather__today__deg {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .weather__next {
