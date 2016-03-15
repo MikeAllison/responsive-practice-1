@@ -7,6 +7,10 @@ main {
   display: none;
 }
 
+.nav__mobile__menu {
+  display: none;
+}
+
 .nav__std {
   display: block;
 }

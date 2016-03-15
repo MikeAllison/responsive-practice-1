@@ -44,7 +44,7 @@ hr {
   display: inline;
   font-size: 2em;
   text-transform: uppercase;
-  padding: 0 1.5em 0 1.5em;
+  padding: 0 1.25em 0 1.25em;
 }
 
 nav a {
@@ -67,10 +67,40 @@ nav a:hover {
 }
 
 .nav__mobile div {
-  background-color: #424242;
+  background-color: #212121;
   height: 5px;
   width: 36px;
   margin: 4px 0 0 0;
+}
+
+.nav__mobile__menu {
+  position: absolute;
+  top: 3.8em;
+  transform: translate(639px, 0);
+  transition: transform 0.3s ease;
+  height: 1000px;
+  width: 639px;
+  z-index: 1;
+  background-color: #424242;
+  background-color: rgba(0, 0, 0, 0.9);
+  font-size: 2em;
+  list-style: none;
+  padding: 0;
+}
+
+#navMobileMenu.open {
+  transform: translate(0, 0);
+}
+
+.nav__mobile__menu ul {
+  list-style: none;
+  margin: 1em 0 0 0.5em;
+  line-height: 3em;
+}
+
+.nav__mobile__menu a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* Hero */
