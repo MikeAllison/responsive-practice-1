@@ -85,6 +85,7 @@ nav a:hover {
 .nav__mobile__menu {
   position: absolute;
   top: 3.8em;
+  -webkit-transform: translate(639px, 0);
   transform: translate(639px, 0);
   transition: transform 0.3s ease;
   height: 1000px;
@@ -98,6 +99,7 @@ nav a:hover {
 }
 
 #navMobileMenu.open {
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
