@@ -7,7 +7,10 @@
     navMobileMenu.classList.toggle('open');
   }
 
-  navMobile.onclick = toggleMenu;
+  navMobile.addEventListener('click', function(e) {
+    toggleMenu();
+    e.stopPropagation();
+  });
 
   for (var i=0; i < navMobileItems.length; i++) {
     navMobileItems[i].onclick = toggleMenu;
