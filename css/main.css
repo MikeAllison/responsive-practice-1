@@ -6,7 +6,7 @@ body {
   color: #424242;
 }
 
-header, footer, .nav__mobile, section {
+header, footer, .nav__mobile, .nav__std, section {
   box-sizing: border-box;
   padding: 0 0.5em 0 0.5em;
   margin-bottom: 2em;
@@ -16,7 +16,6 @@ hr {
   border: 0;
   border-bottom: 1px solid #e0e0e0;
 }
-
 /* Header */
 
 .header__logo {
