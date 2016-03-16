@@ -13,8 +13,8 @@
 </head>
 <body>
   <header class="header">
-    <img class="header__logo" src="images/city.png" alt="iconic view of a cityscape">
-    <h1 class="header__title">
+    <img src="images/city.png" alt="iconic view of a cityscape">
+    <h1 class="brand">
       The Brighton Times
     </h1>
 
@@ -36,6 +36,7 @@
     <hr>
   </nav>
 
+  <!-- Hidden on 640+.  Gets links from stdMenu using JS. -->
   <nav id="mobileMenu"></nav>
 
   <main>
@@ -47,7 +48,7 @@
     </section>
 
     <section class="top-news">
-      <h2 class="news__title">Top News <a href="#" class="news__more">+ more</a></h2>
+      <h2 class="section-heading">Top News <a href="#" class="more-href">+ more</a></h2>
       <ul>
         <li class="top-news__item">
           <a href="#">Gastropub distillery Marfa farm-to-table, Etsy Truffaut fingerstache.</a>
@@ -65,9 +66,9 @@
     </section>
 
     <section class="scores">
-      <h2 class="news__title">Scores <a href="#" class="news__more">+ more</a></h2>
-      <div class="scores__table__container">
-        <table class="scores__table">
+      <h2 class="section-heading">Scores <a href="#" class="more-href">+ more</a></h2>
+      <div class="scores-table-container">
+        <table class="scores-table">
           <thead>
             <tr>
               <th>date</th>
@@ -119,7 +120,7 @@
     </section>
 
     <section class="weather">
-      <h2 class="news__title">Weather</h2>
+      <h2 class="section-heading">Weather</h2>
       <div class="weather__today">
         <span class="weather__location">Brighton, UK</span>
         <span class="weather__desc">Sunny</span>
@@ -158,7 +159,7 @@
     </section>
 
     <section class="latest-news">
-      <h2 class="news__title">Latest News <a href="#" class="news__more">+ more</a></h2>
+      <h2 class="section-heading">Latest News <a href="#" class="more-href">+ more</a></h2>
       <ul>
         <li class="snippet">
           <img class="snippet__thumbnail" src="images/dog.jpg" alt="picture of a girl with a large, stuffed dog toy">

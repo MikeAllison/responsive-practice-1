@@ -20,11 +20,11 @@ header {
   order: 0;
 }
 
-.header__title {
+.brand {
   font-size: 2em;
 }
 
-.news__title {
+.section-heading {
   font-size: 2em;
 }
 
