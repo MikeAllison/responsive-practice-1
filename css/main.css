@@ -15,6 +15,10 @@ body {
   color: #424242;
 }
 
+img, embed, object, video {
+  max-width: 100%;
+}
+
 header, #stdMenu, section, footer {
   box-sizing: border-box;
   padding: 0 0.5em 0 0.5em;
