@@ -18,10 +18,11 @@ main {
 
 header {
   order: 0;
+  text-align: center;
 }
 
 .brand {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .section-heading {
