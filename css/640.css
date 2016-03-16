@@ -3,16 +3,17 @@ main {
   flex-wrap: wrap;
 }
 
-.nav__mobile {
+#mobileMenuBtn {
   display: none;
 }
 
-.nav__mobile__menu {
+#mobileMenu {
   display: none;
 }
 
-.nav__std {
+#stdMenu {
   display: block;
+  order: 1;
 }
 
 header {
@@ -21,10 +22,6 @@ header {
 
 .header__title {
   font-size: 2em;
-}
-
-nav {
-  order: 1;
 }
 
 .news__title {

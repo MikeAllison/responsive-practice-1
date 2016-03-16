@@ -1,5 +1,4 @@
 /* Minor Breakpoints */
-
 @media screen and (min-width: 641px) and (max-width: 800px) {
   .location {
     display: none;
@@ -15,7 +14,7 @@ body {
   color: #424242;
 }
 
-header, footer, .nav__mobile, .nav__std, section {
+header, #stdMenu, section, footer {
   box-sizing: border-box;
   padding: 0 0.5em 0 0.5em;
   margin-bottom: 2em;
@@ -25,6 +24,7 @@ hr {
   border: 0;
   border-bottom: 1px solid #e0e0e0;
 }
+
 /* Header */
 
 .header__logo {
@@ -39,34 +39,36 @@ hr {
 
 /* Nav */
 
-.nav__std {
+#stdMenu {
   display: none;
   text-align: center;
 }
 
-.nav__list {
+#stdMenu ul {
   list-style: none;
   padding: 0;
 }
 
-.nav__item {
+#stdMenu li {
   display: inline;
   font-size: 2em;
   text-transform: uppercase;
   padding: 0 1.25em 0 1.25em;
 }
 
-nav a {
+#stdMenu a {
   text-decoration: none;
   color: #616161;
 }
 
-nav a:hover {
+#stdMenu a:hover {
   text-decoration: underline;
   color: #212121;
 }
 
-.nav__mobile {
+/* Hamburger Menu */
+
+#mobileMenuBtn {
   height: 50px;
   width: 50px;
   position: absolute;
@@ -75,14 +77,16 @@ nav a:hover {
   margin-top: 1em;
 }
 
-.nav__mobile div {
+#mobileMenuBtn div {
   background-color: #212121;
   height: 5px;
   width: 36px;
   margin: 4px 0 0 0;
 }
 
-.nav__mobile__menu {
+/* Mobile Menu Div */
+
+#mobileMenu {
   position: absolute;
   top: 3.8em;
   -webkit-transform: translate(639px, 0);
@@ -98,18 +102,18 @@ nav a:hover {
   padding: 0;
 }
 
-#navMobileMenu.open {
+#mobileMenu.open {
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
 }
 
-.nav__mobile__menu ul {
+#mobileMenu ul {
   list-style: none;
   margin: 1em 0 0 0.5em;
   line-height: 3em;
 }
 
-.nav__mobile__menu a {
+#mobileMenu a {
   text-decoration: none;
   color: #fff;
 }
@@ -167,6 +171,7 @@ nav a:hover {
 
 .top-news__item {
   list-style: none;
+  font-size: 1.25em;
   padding: 1em 0 1em 0;
   border-bottom: 1px solid #E0E0E0;
 }
@@ -266,7 +271,7 @@ nav a:hover {
   display: block;
 }
 
-/* Recent News */
+/* Latest News */
 
 .latest-news ul {
   list-style: none;
@@ -293,6 +298,10 @@ nav a:hover {
   text-decoration: none;
   font-weight: 500;
   color: #666;
+}
+
+.snippet p {
+  text-overflow: ellipsis;
 }
 
 footer {

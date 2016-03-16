@@ -1,15 +1,19 @@
 (function() {
-  // Collect all links in the mobile nav menu
-  var navMobileItems = document.getElementsByClassName('nav__mobile__item');
+  var mobileMenuBtn = document.getElementById('mobileMenuBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  var navItems = document.getElementById('navItems').cloneNode(true);
 
   // Toggles class 'open' on the mobile menu
   function toggleMenu() {
-    navMobileMenu.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
   }
 
-  navMobile.onclick = toggleMenu;
+  // Append UL in stdMenu to the mobileMenu on doc ready
+  mobileMenu.appendChild(navItems);
 
-  for (var i=0; i < navMobileItems.length; i++) {
-    navMobileItems[i].onclick = toggleMenu;
-  }
+  // Set click handler for mobileMenuBtn
+  mobileMenuBtn.onclick = toggleMenu;
+
+  // Set click handler for the mobileMenu
+  mobileMenu.onclick = toggleMenu;
 })();
